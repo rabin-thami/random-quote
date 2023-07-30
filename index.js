@@ -13,10 +13,10 @@ const  authorEl = document.querySelector("#author")
 
 
 
-addEventListener('load', function(){
-    displayRandomQuotes()
-    backgroundChange()
-})
+document.addEventListener('DOMContentLoaded', function() {
+    displayRandomQuotes();
+    backgroundChange();
+});
 
 function displayRandomQuotes() {
     quoteEl.textContent = quoteHolder.quote
